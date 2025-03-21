@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    width: 1250px;
+}
+h1{
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+main{
+    width: 1250px;
+    border: 3px solid black;
+}
+article{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+main h2{
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+}
+
+
+.info{
+    background-color: orange;
+    width: 1200px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    min-height: 300px;
+}
+
+header, .info{
+    border: 3px solid black;
+}
+
+.Produkt-Bilderna{
+    min-width: 250px;
+    max-width: 200px;
+    height: 250px;
+}
+
+.Köp{
+    font-size: 1.2rem;
+    padding: 7px 30px;
+    background-color: tomato;
+    color: white;
+    border-radius: 70%;
+}
+
+.Pris{
+    color: teal;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.produkter-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
